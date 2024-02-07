@@ -77,7 +77,8 @@ async function calculator() {
         await sleep();
         let { again } = await inquirer.prompt(answer)
         condition = again;
-        
+        console.log(`\n ---{===================================================================}--- \n`);
+
     }
     
 }
